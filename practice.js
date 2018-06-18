@@ -23,7 +23,7 @@ var newGreeting = function(name){
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-var greeting = name => return "Hello, " + name
+var finalGreeting = (name) => "Hello, " + (name)
 
 //////////////////PROBLEM 4////////////////////
 
@@ -40,7 +40,7 @@ var groceries = ["apples", "milk", "eggs", "bread"]
 
 function doubleCheck(arr1){
   for(i = 0; i < arr1.length; i++){
-    if [i] != "chocolate"{
+    if(arr1.indexOf("chocolate") == -1){
       arr1.push("chocolate")
     }
   }
