@@ -88,7 +88,10 @@ var ruff = dog.bark()
 
 //Return mySum.
 
-//Code Here
+function looper(arr2){
+  var mySum = 0;
+  for(i=0; arr2.length;i++){}
+};
 
 //////////////////PROBLEM 7////////////////////
 
