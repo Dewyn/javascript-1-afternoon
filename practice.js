@@ -23,10 +23,7 @@ var newGreeting = function(name){
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-/*
- greeting = name => return "Hello, " + name
-*/
-// return to this, setting this up causes the other 2 to show as failing in Jasmine
+var greeting = name => return "Hello, " + name
 
 //////////////////PROBLEM 4////////////////////
 
@@ -57,7 +54,12 @@ function doubleCheck(arr1){
 //name (a string), color: (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+var dog = {
+  name:"irdog",
+  color:"brown",
+  age: 4,
+  goodBoy: true
+};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
