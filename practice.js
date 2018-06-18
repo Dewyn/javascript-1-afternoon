@@ -87,12 +87,17 @@ var ruff = dog.bark()
 //to the mySum variable total.
 
 //Return mySum.
-
+/*
 function looper(arr2){
   var mySum = 0;
-  for(i=0; arr2.length;i++){}
+  for(i=0; arr2.length;i++){
+    if(arr2[i]%2 != 0 || arr2[i] >= 100){
+       var mySum + [i]
+    }
+  }
+ return var mySum
 };
-
+*/
 //////////////////PROBLEM 7////////////////////
 
 //Given the following function called math
@@ -104,12 +109,14 @@ function math(num1, num2, callback) {
 //Write a function called add that takes in two parameters and
 //returns the result of adding them together.
 
-//Code Here
+function add(num3, num4){
+  return num3 + num4
+}
 
 //Now invoke math, passing in the numbers 3 and 4, and your add function,
 //storing the result in the variable mathSum.
 
-//Code Here
+var mathSum = math(3, 4, add(3, 4))
 
 //////////////////PROBLEM 8////////////////////
 
